@@ -1,0 +1,287 @@
+@charset "utf-8";
+body{
+	background-size: 100%;
+	margin: auto;
+	font-family: productT sans;
+}
+.imga{
+	padding-right: 200px;
+	
+}
+.imgb{
+	padding-left: 100px;
+}
+.container{
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	position: absolute;
+	background: transparent;
+}
+.tengah{
+	
+	padding-left: 290;
+}
+.button{
+	width: auto;
+	height: auto;
+	font-size: 30px;
+	margin: 2;
+	border: none;
+	color: white;
+	cursor: pointer;
+	background: #333;
+	
+}
+
+.button:hover{
+	width: auto;
+	height: auto;
+	font-size: 30px;
+	border: none;
+	color: white;
+	cursor: pointer;
+	background: #008087;
+	
+}
+ nav {
+        margin:0;
+        text-align: center;
+        width: 100%;
+        font-family: Product Sans;
+    } 
+nav.menu{
+	background:#BC3557;
+	opacity: 0.9;
+	filter: alpha(opacity=90);
+	height: 70px;
+	width : 100%;
+	font-weight: bold;
+		
+}
+nav.menu img {
+	float: left;
+	align: left;
+	padding-top: 15px;
+	padding-left: 40px;
+	
+}
+nav.menu ul {
+	overflow:hidden;
+	color:#fff;
+	list-style: none;
+	float: center;
+	padding-left:300px;
+	padding:inherit;
+	width: 1300px;
+	margin:0 0 0;
+	background: transparent;
+}
+ 
+nav.menu ul li {
+	margin:auto;
+	padding-right: 0px;
+	float:right;
+}
+ 
+nav.menu ul a {
+	padding:16px;
+	display :block;
+	font-weight:700;
+	font-size: 20px;
+	color:#FFFFFF;
+	transition: all 0.9s ease;
+	text-decoration: none;
+}
+ 
+nav.menu ul a:hover {
+	background:transparent;
+	color : White;
+	font-weight: 700;
+	border-bottom: 1.5px solid #A0DABD;
+}
+
+.hasil{
+	width: 400px;
+	height: 50px;
+	border: thin;
+	border-style:groove;
+	outline: #3F3939;
+	font-size: 20px;
+	text-align: center;
+	background: #eeefff;
+	opacity: 2;
+	padding: 50, 50;
+}
+.hasil2{
+	width: 400px;
+	height: 50px;
+	border: thin;
+	border-style:groove;
+	outline: #3F3939;
+	font-size: 20px;
+	text-align: center;
+	background: #eeefff;
+	opacity: 2;
+	padding: 50, 50;
+}
+.hasil3{
+	width: 400px;
+	height: 50px;
+	border: thin;
+	border-style:groove;
+	outline: #3F3939;
+	font-size: 20px;
+	text-align: center;
+	background: #eeefff;
+	opacity: 2;
+	padding: 50, 50;
+}
+.tab{
+	padding-left: 200px;
+}
+.submit{
+	align-content: center;
+}
+h1 {
+  font-family: "Product Sans";
+  font-weight: bold;
+font-size: 72px;
+color: #BC3557;
+  text-transform: uppercase;
+  letter-spacing: 7px;
+  text-align: center;
+}
+h2 {
+	font-family: "Product Sans";
+ font-size: 40px;
+	color: #BC3557;
+  text-align: center;
+font-weight: bold;
+}
+h3 {
+	font-family: "Product Sans";
+ font-size: 40px;
+	color:#2B2525;
+  text-align: center;
+font-weight: bold;
+}
+h4 {
+  font-family: "Product Sans";
+  font-weight: 400;
+  text-transform: none;
+  letter-spacing: 1px;
+  text-align: left;
+padding-left: 200px;
+	line-height: 30px;
+
+}
+h5{
+	font-family: "Product Sans";
+ font-size: 20px;
+	color: black;
+  text-align: center;
+	padding-bottom: 2px;
+
+}
+center{
+	font-family: "Product Sans";
+	font-size: 21px;
+	font-weight: bold;
+}
+.box{
+  position:absolute;
+  height:450px;
+  width:480px;
+  font-family:Helvetica;
+  color:#fff;
+  background:rgba(0,0,0,0.13);
+  padding:30px 0px;
+  
+}
+
+.inner-container{
+  width:450px;
+  height:480px;
+  position:absolute;
+  top:calc(50vh - 200px);
+  left:calc(50vw - 200px);
+  overflow:hidden;
+}
+.bgvid.inner{
+  top:calc(-50vh + 200px);
+  left:calc(-50vw + 200px);
+  filter: url("data:image/svg+xml;utf9,<svg%20version='1.1'%20xmlns='http://www.w3.org/2000/svg'><filter%20id='blur'><feGaussianBlur%20stdDeviation='10'%20/></filter></svg>#blur");
+  -webkit-filter:blur(10px);
+  -ms-filter: blur(10px);
+  -o-filter: blur(10px);
+  
+}
+
+/* The container */
+.container2 {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.container2 input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    left: 3px;
+    top: 5px;
+	padding-right: 200;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.container2:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.container2 input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container2 input:checked ~ .checkmark:after {
+  display: block; 
+}
+
+/* Style the indicator (dot/circle) */
+.container2 .checkmark:after {
+ 	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
+}
+
